@@ -1,0 +1,1 @@
+playsound minecraft:block.note_block.flute record @s ~ ~ ~ 0.5 1.059

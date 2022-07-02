@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "inventory_update": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "rewards": {
+        "function": "csl_main:update_stats/inventory/advancement"
+    }
+}

@@ -1,0 +1,6 @@
+
+tellraw @a[tag=tpa.request] ""
+tellraw @a[tag=tpa.request] [{"text":"------------------------------------","color":"gray"}]
+tellraw @a[tag=tpa.request] [{"text":"You received a TPA request from ","color":"gray"},{"selector":"@s"},{"text":".","color":"gray"}]
+tellraw @a[tag=tpa.request] [{"text":"[ACCEPT]  ","color":"green","clickEvent":{"action":"run_command","value":"/trigger tpaccept"},"hoverEvent":{"action":"show_text","contents":[{"text":"WARNING:\n","color":"red"},{"text":"Pressing this button will tp ALL players\n","color":"gray"},{"text":"which sent a request to you.","color":"gray"}]}},{"text":"[LIST]  ","color":"yellow","clickEvent":{"action":"run_command","value":"/trigger tpalist"},"hoverEvent":{"action":"show_text","contents":[{"text":"/trigger tpalist\n","color":"yellow"},{"text":"Press to show all players who had sent\nyou a TPA Request and are online.","color":"gray"}]}},{"text":"[DENY]","color":"red","clickEvent":{"action":"run_command","value":"/trigger tpdeny"},"hoverEvent":{"action":"show_text","contents":[{"text":"/trigger tpdeny\n","color":"red"},{"text":"Press to deny all TPA Requests.","color":"gray"}]}}]
+tellraw @a[tag=tpa.request] [{"text":"------------------------------------","color":"gray"}]

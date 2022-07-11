@@ -34,3 +34,16 @@ execute if score @s SU.Permission >= %gift SU.Permission run scoreboard players 
 
 scoreboard players reset @s nv
 execute if score @s SU.Permission >= %nv SU.Permission run scoreboard players enable @s nv
+
+scoreboard players reset @s invis_frame
+execute if score @s SU.Permission >= %invis_frame SU.Permission run scoreboard players enable @s invis_frame
+
+scoreboard players reset @s armor_stand.arms
+execute if score @s SU.Permission >= %armor_stand.arms SU.Permission run scoreboard players enable @s armor_stand.arms
+
+scoreboard players reset @s armor_stand.base
+execute if score @s SU.Permission >= %armor_stand.base SU.Permission run scoreboard players enable @s armor_stand.base
+
+
+scoreboard players reset @s coordinate_tracker
+execute if score @s SU.Permission >= %coordinate_tracker SU.Permission run scoreboard players enable @s coordinate_tracker

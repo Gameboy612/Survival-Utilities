@@ -1,0 +1,1 @@
+execute if entity @s[type=item_frame] run function cmd:invis_frame/item_frame_20t

@@ -1,2 +1,2 @@
 
-scoreboard players set %SurvivalUtilities GBT.ImportedDatapacks 2
+scoreboard players set %SurvivalUtilities GBT.ImportedDatapacks 5
